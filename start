@@ -1,0 +1,9 @@
+#!/bin/bash -l
+
+# ==== ONLY EDIT WITHIN THIS BLOCK =====
+
+export PANGEO_ENV="UWGDA-2021"
+
+# ==== ONLY EDIT WITHIN THIS BLOCK =====
+
+exec "$@"
