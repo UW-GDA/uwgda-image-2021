@@ -8,10 +8,5 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              jupyter-matplotlib \
                              jupyter-leaflet \
                              dask-labextension
-
-#install from conda-forge?
-jupyter serverextension enable --py nbresuse --sys-prefix
-jupyter nbextension install --py nbresuse --sys-prefix
-jupyter nbextension enable --py nbresuse --sys-prefix
-
+# other things                             
 mandb
