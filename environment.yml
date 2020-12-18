@@ -30,6 +30,7 @@ dependencies:
   - matplotlib
   - matplotlib-scalebar
   - nbgitpuller
+  - nodejs
   - numpy
   - pandas
   - panel
