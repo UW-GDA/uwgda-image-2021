@@ -23,6 +23,7 @@ dependencies:
   - hvplot
   - intake
   - intake-xarray
+  - intake-stac
   - ipyleaflet
   - ipympl
   - ipywidgets
@@ -43,6 +44,7 @@ dependencies:
   - rasterstats
   - rio-cogeo
   - requests
+  - s3fs
   - scikit-learn
   - scikit-image
   - scipy
