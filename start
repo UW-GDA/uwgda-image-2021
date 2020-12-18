@@ -3,6 +3,7 @@
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
 export PANGEO_ENV="UWGDA-2021"
+export HOSTNAME="uwgda2021"
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
