@@ -13,3 +13,9 @@ jobs:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         IMAGE_NAME: "uwgda/uwgda-image-2021"
+        MYBINDERORG_TAG: ${{ github.event.ref }}
+        
+    - name: Report Image Size and Conda Packages
+      run: |
+        docker images
+        docker run uwgda/uwgda-image-2021:latest conda list --export
