@@ -1,4 +1,4 @@
-name: uwgda2020
+name: uwgda2021
 channels:
   - conda-forge
 dependencies:
@@ -44,6 +44,7 @@ dependencies:
   - rasterio
   - rasterstats
   - rio-cogeo
+  - rioxarray
   - requests
   - s3fs
   - scikit-learn
@@ -52,5 +53,5 @@ dependencies:
   - seaborn
   - shapely
   - tornado
-  - xarray
+  - xarray-spatial
   - zarr
