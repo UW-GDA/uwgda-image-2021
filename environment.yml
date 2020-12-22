@@ -27,6 +27,8 @@ dependencies:
   - ipyleaflet
   - ipympl
   - ipywidgets
+  - jupyterhub-singleuser 
+  - jupyter-server-proxy
   - jupyterlab=2
   - matplotlib
   - matplotlib-scalebar
