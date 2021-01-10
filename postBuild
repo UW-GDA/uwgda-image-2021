@@ -8,5 +8,5 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              jupyter-matplotlib \
                              jupyter-leaflet \
                              dask-labextension
-# other things                             
-mandb
+# support for linux 'manpages'
+yes | unminimize
